@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>Logo</p>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li>Home<i class="fa fa-user"></i></li>
+                <li>About us <i class="fa fa-clone"></i>
+                    <div class="sub-menu-l">
+                        <ul>
+                            <li>Mission</li>
+                            <li>Vision</li>
+                            <li>Team</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>Services<i class="fa fa-inr"></i>
+                    <div class="sub-menu-l">
+                        <ul>
+                            <li>Web Designing</li>
+                            <li class="hover-me">Marketing<i class="fa fa-angle-right"></i>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li>SEO</li>
+                                    <li>Social Media</li>
+                                    <li>Email Marketing</li>
+                                </ul>
+                            </div>
+                            </li>
+                            <li class="hover-me">Mobile App<i class="fa fa-angle-right"></i>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li>Android App</li>
+                                        <li>IOS App</li>
+                                        <li>Ionic App</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>Contact us<i class="fa fa-edit"></i>
+                    <div class="sub-menu-l">
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instgram</li>
+                            <li>Twitter</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="header">
+        <h1>Image Grid</h1>
+        <p>Click on the button to change the grid view.</p>
+        <div class="icons">
+            <i class="fa fa-square" onclick="full()"></i>
+            <i class="fa fa-th-large" onclick="twoColumn()"></i>
+            <i class="fa fa-th" onclick="fourColumn()"></i>
+        </div>
+        <div class="row">
+            <div id="column1">
+                <img src="picuter/0576.jpg_wh860.jpg">
+                <img src="picuter/88cd088a6721a3bed72b36e21ea9d6a8.jpg">
+                <img src="picuter/beautiful-place-pictures-4z0hjwoi8rjhlk1p.jpg">
+                <img src="picuter/Cat03.jpg">
+                <img src="picuter/coffee-resized.jpg">
+            </div>
+            <div id="column2">
+                <img src="picuter/convert_to_jpg.png">
+                <img src="picuter/images (1).jpeg">
+                <img src="picuter/images (2).jpeg">
+                <img src="picuter/images (3).jpeg">
+                <img src="picuter/images (4).jpeg">
+            </div>
+            <div id="column3">
+                <img src="picuter/images.jpeg">
+                <img src="picuter/jpg_44-2.jpg">
+                <img src="picuter/jpg_edit_cave_sea.jpg">
+                <img src="picuter/jpg_landscape_2.jpg">
+                <img src="picuter/pexels-maoriginalphotography-1485894.jpg">
+            </div>
+            <div id="column4">
+                <img src="picuter/pizza-harvest-slice.jpg">
+                <img src="picuter/pngtree-vacant-bench-in-autumn-park--jpg-image_13000049 (1).jpg">
+                <img src="picuter/pngtree-vacant-bench-in-autumn-park--jpg-image_13000049.jpg">
+                <img src="picuter/scenic-view-of-ocean.jpg">
+                <img src="picuter/tiger-jpg.jpg">
+            </div>
+        </div>
+    </div>
+    <a href="#" class="to-top">
+        <i class="fa-solid fa-square-caret-up"></i>
+    </a>
+    <footer>
+        <p>Thairobeidatt@co>py; 2024</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
